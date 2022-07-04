@@ -109,15 +109,15 @@ em { color: #6633aa; }
 
 #templatemo_header_wrapper {
 	width: 100%;
-	height: 305px;
+	height: 220px;
 	background: url("../images/12.png") no-repeat center bottom;
 	background-size: contain;
-
+margin-left:10px;
 }
 
 #templatemo_header {
 	width: 1600px;
-	height: 300px;
+	height: 240px;
 	padding: 0 10px;
 	margin: 0 auto;
 
@@ -125,37 +125,20 @@ em { color: #6633aa; }
 
 #templatemo_header  #site_title {
 	float: left;
-	width: 300px;
-	padding-top: 30px;
-	margin-left:70px;
+	width: 200px;
 
 }
 
 #templatemo_header  #site_title h1 {
-	margin: 0;
-	padding: 0;
+margin-top:10px;
 
+	height:105px;
 
 }
-
-#templatemo_header  #site_title a {
-	margin: 0px;
-	padding: 0px;
-	font-size: 40px;
-
-	font-weight: bold;
-	text-decoration: none;
-}
-
-#templatemo_header  #site_title a span {
-	display: block;
-	color:black;
-	font-size:35x;
-	font-weight: normal;
-	margin-top: 20px;
-	font-weight: bold;
-
-
+#templatemo_header #site_title img{
+	margin-left:200px;
+	height:100px;
+ position: absolute;
 }
 
 #header_right {
@@ -290,6 +273,7 @@ height:100%
 #templatmeo_sidebar {
 	float: right;
 	width: 260px;
+	margin-top:10px;
 	
 }
 
@@ -604,6 +588,10 @@ height:100%
 #templatemo_copyright a {
 	color: #cfbbb1;
 }
+#body{
+	width:300px;
+	margin: 0 auto;
+}
 .body{
 	background: url("../images/body.png") no-repeat bottom;
     width: 1550px;
@@ -617,8 +605,9 @@ height:100%
 .container{
 	height:300px;
 	width:400px;
-	position: center;
-	padding:380px 600px;
+
+	margin:380px 600px;
+	position: fixed;
 }
 .container h1{
 	line-height: .9;
@@ -654,15 +643,17 @@ height:100%
 	color:lightgrey;
 }
 .building{
-	width:280px;
+	width:278px;
 	float:left;
-	border:1px white solid;
+
 	padding:10px;
+	background: whitesmoke;
+	border-radius: 10px;
 	margin:0 3px;	height:400px;
 }
 .building img{
 	width:280px;
-
+	height:370px;
 }
 
 /* end of copyright */
